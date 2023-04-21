@@ -1,0 +1,63 @@
+body{
+    background-color: #917FB3;
+}
+
+@font-face{
+    font-family: fuente1;
+    src: url(../FDL/NEON\ CLUB\ MUSIC_medium.otf);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.titulo{
+    font-size: 70px;
+    text-align: center;
+    margin: 50px;
+    font-family:fuente1 ;
+    color: black;
+}
+
+#artistas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#artistas img{
+    transition: all 300ms;
+    position: relative;
+}
+
+#artistas img:hover{
+    transform: scale(1.15);
+}
+
+.img{
+    width: 330px;
+    height: 305px;
+}
+

@@ -1,0 +1,51 @@
+.img{
+    width:250px ;
+    height: 250px; 
+    margin-left: 5%;
+    text-align: center;
+}
+
+.info{
+    margin-left: 30%;
+    margin-top: -20%;
+    font-size: 25px;
+}
+
+
+h1{
+   text-align: center;
+   font-size: 50px;
+}
+
+body{
+    background-color:  #FDE2F3;
+}
+
+#Albumes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Albumes img{
+    transition: all 300ms;
+    position: relative;
+}
+
+#Albumes img:hover{
+    transform: scale(1.15);
+}
+
+h2{
+   text-align: center;
+   font-size: 40px;
+}
+
+.img1{
+    width:250px ;
+    height: 250px; 
+    margin-left: 5%;
+    text-align: center;
+}
