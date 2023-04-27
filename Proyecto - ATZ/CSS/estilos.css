@@ -61,3 +61,8 @@ li a:hover {
     height: 305px;
 }
 
+.checkbtn{
+    font-size: 30px;
+    color: #111;
+    float: right;
+}

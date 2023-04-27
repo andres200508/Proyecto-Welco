@@ -1,33 +1,33 @@
-.img{
-    width:250px ;
-    height: 250px; 
+.img {
+    width: 250px;
+    height: 250px;
     margin-left: 5%;
     text-align: center;
 }
 
-.info{
+.info {
     margin-left: 30%;
     margin-top: -20%;
     font-size: 25px;
 }
 
-.info2{
+.info2 {
     margin-left: 30%;
     margin-top: -25%;
     font-size: 25px;
 }
 
 
-h1{
-   text-align: center;
-   font-size: 50px;
+h1 {
+    text-align: center;
+    font-size: 50px;
 }
 
-body{
-    background-color:  #FDE2F3;
+body {
+    background-color: #FDE2F3;
 }
 
-#Albumes{
+#Albumes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
@@ -35,56 +35,79 @@ body{
     grid-gap: 30px;
 }
 
-#Albumes img{
+#Albumes img {
     transition: all 300ms;
     position: relative;
 }
 
-#Albumes img:hover{
+#Albumes img:hover {
     transform: scale(1.15);
 }
 
-h2{
-   text-align: center;
-   font-size: 40px;
+h2 {
+    text-align: center;
+    font-size: 40px;
 }
 
-.img1{
-    width:250px ;
-    height: 250px; 
+.img1 {
+    width: 250px;
+    height: 250px;
     margin-left: 5%;
     text-align: center;
     margin-top: 5%;
 }
 
-.img2{
+.img2 {
     margin-left: 25%;
 }
 
-.info3{
+.info3 {
     text-align: center;
     font-size: 30px;
 }
 
-.img3{
-    width:250px ;
-    height: 250px; 
+.img3 {
+    width: 250px;
+    height: 250px;
     margin-left: 5%;
     margin-top: 5%;
 }
 
-.info4{
+.info4 {
     margin-left: 30%;
     margin-top: -25%;
     font-size: 25px;
 }
 
-.img4{
-    width:300px ;
-    height: 300px; 
+.img4 {
+    width: 300px;
+    height: 300px;
     margin-left: 40%;
 }
 
-.info5{
+.info5 {
+    text-align: center;
+}
+
+.info6 {
+    margin-left: 30%;
+    margin-top: -16%;
+    font-size: 25px;
+}
+
+.t{
+    margin-top: 10%;
+    
+}
+
+.t2{
+    font-size: 30px;
+}
+
+.img5{
+    padding-left: 39%;
+}
+
+.info7{
     text-align: center;
 }
