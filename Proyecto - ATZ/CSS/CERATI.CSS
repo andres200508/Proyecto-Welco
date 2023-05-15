@@ -80,13 +80,14 @@ h2 {
 }
 
 .img4 {
-    width: 300px;
-    height: 300px;
-    margin-left: 40%;
+    width: 500px;
+    height: 500px;
+    margin-left: 33%;
 }
 
 .info5 {
     text-align: center;
+    font-size: 30px;
 }
 
 .info6 {
