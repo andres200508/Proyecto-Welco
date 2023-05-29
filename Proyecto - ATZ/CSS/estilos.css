@@ -1,5 +1,5 @@
 body{
-    background-color: #917FB3;
+    background-color:#915790;
 }
 
 @font-face{
@@ -28,7 +28,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo{
@@ -36,7 +36,7 @@ li a:hover {
     text-align: center;
     margin: 50px;
     font-family:fuente1 ;
-    color: black;
+    color: white;
 }
 
 #artistas{
@@ -63,7 +63,7 @@ li a:hover {
 
 .checkbtn{
     font-size: 30px;
-    color: #111;
+    color: rgb(255, 253, 253);
     float: right;
 }
 

@@ -23,6 +23,7 @@
     margin:50px;
     align-items: flex-start;
     color: antiquewhite;
+    text-align: center;
 }
 
 
@@ -33,7 +34,7 @@ h1{
 }
 
 body{
-    background-color: #117A65;
+    background-color: #6d2d6b;
 }
 
 #Albumes{
@@ -85,4 +86,30 @@ h2{
 
     margin-left: 11%;
     height: 600px;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.f{
+    text-align: center;
 }

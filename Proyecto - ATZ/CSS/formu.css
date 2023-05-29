@@ -3,7 +3,7 @@
 
 body{
   height: 100%; 
-  background-color: #ab4493; 
+  background-color: #b682b5; 
 }
 
 
@@ -146,4 +146,12 @@ li a {
 
 li {
     float: right;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.f{
+  text-align: center;
 }
