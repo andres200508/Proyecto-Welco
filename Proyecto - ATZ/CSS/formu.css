@@ -22,8 +22,7 @@ body{
 input{
   background-color: #fbfbfb; 
   width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
+  height: 40px;   
   border-style: solid; 
   border-width: 1px; 
   border-color: #ab4493; 
@@ -36,8 +35,7 @@ input{
 textarea{
   background-color: #fbfbfb; 
   width: 405px; 
-  height: 150px; 
-  border-radius: 5px;  
+  height: 150px;   
   border-style: solid; 
   border-width: 1px; 
   border-color: #ab4493; 
@@ -155,3 +153,18 @@ li a:hover {
 .f{
   text-align: center;
 }
+
+
+.P{
+   font-size: 90px;
+    text-align: center;
+    margin: 50px;
+    font-family:fuente1 ;
+    color: white;
+}
+
+.logo{
+  width: 70px; ;
+  height: 70px;
+}
+
