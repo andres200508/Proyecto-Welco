@@ -1,0 +1,143 @@
+.img {
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.info {
+    margin-left: 30%;
+    margin-top: -20%;
+    font-size: 25px;
+}
+
+.info2 {
+    margin-left: 30%;
+    margin-top: -25%;
+    font-size: 25px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: #daadda;
+}
+
+#Albumes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Albumes img {
+    transition: all 300ms;
+    position: relative;
+}
+
+#Albumes img:hover {
+    transform: scale(1.15);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.img1 {
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.img2 {
+    margin-left: 25%;
+}
+
+.info3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.img3 {
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.info4 {
+    margin-left: 30%;
+    margin-top: -25%;
+    font-size: 25px;
+}
+
+.img4 {
+    width: 500px;
+    height: 500px;
+    margin-left: 33%;
+}
+
+.info5 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.info6 {
+    margin-left: 30%;
+    margin-top: -16%;
+    font-size: 25px;
+}
+
+.t{
+    margin-top: 10%;
+    
+}
+
+.t2{
+    font-size: 30px;
+}
+
+.img5{
+    padding-left: 39%;
+}
+
+.info7{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.f{
+    text-align: center;
+}
+
+.logo{
+    width: 70px; ;
+    height: 70px;
+}
